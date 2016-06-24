@@ -1,2 +1,2 @@
 # libyara_nuget
-Yara compiled and packaged for Visual Studio
+libyara compiled and packaged for Visual Studio
