@@ -1,2 +1,4 @@
 # libyara_nuget
-libyara compiled and packaged for Visual Studio
+VirusTotal's libyara compiled and packaged for Visual Studio.
+
+[yara project](https://github.com/VirusTotal/yara)
