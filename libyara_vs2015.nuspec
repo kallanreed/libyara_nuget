@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>libyara_vs2015_prerelease</id>
-    <title>libyara for VS2015 (Pre-Release)</title>
+    <id>libyara_vs2015</id>
+    <title>libyara for VS2015</title>
     <version>3.5.0</version>
     <authors>kylereed</authors>
     <owners>kylereed</owners>
     <licenseUrl>https://github.com/kallanreed/libyara_nuget/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/kallanreed/libyara_nuget</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>VirusTotal's libyara compiled with VS2015 toolchain from the latest source. Provides libs and headers to be included in native projects that use libyara.</description>
-    <releaseNotes>Built against latest release 3.5.0</releaseNotes>
+    <description>VirusTotal's libyara compiled with VS2015 toolchain from the 3.5.0 release. Provides libs and headers to be included in native projects that use libyara.</description>
+    <releaseNotes>Built from released 3.5.0 source</releaseNotes>
     <copyright>Copyright 2016</copyright>
-    <tags>virustotal libyara yara prerelease 2015</tags>
+    <tags>virustotal libyara yara 3.5 2015</tags>
       <dependencies>
     <dependency id="yara-vs2015-binary-dependencies" version="0.0.1" />
   </dependencies>
@@ -26,6 +26,6 @@
           target="lib\native\lib\libyara32.lib" />
     <file src="yara\windows\vs2015\libyara\Release\libyara64.lib"
           target="lib\native\lib\libyara64.lib" />
-    <file src="build\libyara_vs2015.targets" target="build\native\libyara_vs2015_prerelease.targets" />
+    <file src="build\libyara_vs2015.targets" target="build\native\libyara_vs2015.targets" />
   </files>
 </package>
