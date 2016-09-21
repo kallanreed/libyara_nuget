@@ -3,14 +3,14 @@
   <metadata>
     <id>libyara_vs2015_prerelease</id>
     <title>libyara for VS2015 (Pre-Release)</title>
-    <version>3.5.0</version>
+    <version>3.5.1</version>
     <authors>kylereed</authors>
     <owners>kylereed</owners>
     <licenseUrl>https://github.com/kallanreed/libyara_nuget/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/kallanreed/libyara_nuget</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>VirusTotal's libyara compiled with VS2015 toolchain from the latest source. Provides libs and headers to be included in native projects that use libyara.</description>
-    <releaseNotes>Built against latest release 3.5.0</releaseNotes>
+    <releaseNotes>Built against latest release 3.5.1</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>virustotal libyara yara prerelease 2015</tags>
       <dependencies>
